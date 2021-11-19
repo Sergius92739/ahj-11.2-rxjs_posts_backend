@@ -1,6 +1,6 @@
 #### Deployment: <a href="">Github Pages</a>
 #### Frontend: <a href="">Repository</a>
-#### Server: <a href="">Heroku</a>
+#### Server: <a href="https://ahj-11-2-sergius-rxjs-posts.herokuapp.com/">Heroku</a>
 
 ---
 
