@@ -13,7 +13,12 @@ app.use(koaBody({
   multipart: true,
   json: true,
 }));
-app.use(cors());
+app.use(cors({
+  origin: '*',
+  credentials: true,
+  'Access-Control-Allow-Origin': true,
+  allowMethods: ['GET'],
+}));
 app.use(router());
 
 const server = http.createServer(app.callback());
